@@ -1,0 +1,32 @@
+STENT GRAPH OPTIMIZER V2 - VALIDATION SUMMARY
+=============================================
+
+square: EULER_CIRCUIT | V=60 E=100 odd=0 | duplicate=0 retract=0
+  support strong/contact/unsupported = 56/5/39
+  locally preferred interior transitions = 72; avoidable interior bends = 8; boundary turns = 19
+  Euler smooth-stroke components = 5; meta switches = 4
+  cylinder surface print length = 321.194 mm
+
+arowhead: EULER_TRAIL | V=36 E=56 odd=2 | duplicate=0 retract=0
+  support strong/contact/unsupported = 27/0/29
+  locally preferred interior transitions = 42; avoidable interior bends = 0; boundary turns = 13
+  Euler smooth-stroke components = 1; meta switches = 0
+  cylinder surface print length = 245.933 mm
+
+honeycomb: OPEN_CHINESE_POSTMAN | V=45 E=58 odd=30 | duplicate=14 retract=0
+  support strong/contact/unsupported = 0/44/14
+  locally preferred interior transitions = 45; avoidable interior bends = 9; boundary turns = 17
+  cylinder surface print length = 241.753 mm
+
+reentrant: OPEN_CHINESE_POSTMAN | V=72 E=96 odd=48 | duplicate=23 retract=0
+  support strong/contact/unsupported = 0/70/26
+  locally preferred interior transitions = 54; avoidable interior bends = 38; boundary turns = 26
+  cylinder surface print length = 442.469 mm
+
+Checks passed for all four graphs:
+  - route continuous
+  - every original edge covered
+  - duplicate flag count matches OCPP augmentation
+  - no G10/G11 retract commands
+  - A/Z G-code generated
+  - offline Plotly 3D viewer generated

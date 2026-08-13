@@ -1,0 +1,25 @@
+SUPPORT + STRAIGHTNESS ROUTE REPORT
+===================================
+
+Hard constraint: retract_count = 0; one continuous Euler/OCPP trail.
+
+Support interpretation:
+  STRONG_INTERSECTION : new segment crosses older deposited material.
+  CONTACT_SUPPORT     : older material exists at the transition/contact node.
+  UNSUPPORTED         : no prior support detected for that segment.
+  OVERPRINT           : OCPP duplicate traversal; not rewarded as support.
+
+Straightness interpretation for Euler-capable square/arrowhead:
+  Interior nodes strongly prefer straight/diagonal continuation.
+  Outer-boundary turns are relaxed because they are usually required to return into the lattice.
+  A red ring in optimized_route_2d.png marks an avoidable interior bend.
+
+Support counts:
+  STRONG_INTERSECTION : 0
+  CONTACT_SUPPORT     : 70
+  UNSUPPORTED         : 26
+  OVERPRINT           : 23
+
+Avoidable interior bends : 38
+Interior bends (>18 deg) : 92
+Boundary turns (>18 deg) : 26

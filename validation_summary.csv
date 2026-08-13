@@ -1,0 +1,5 @@
+﻿pattern,algorithm,nodes,edges,odd_nodes,duplicate_edges,retract,strong,contact,unsupported,preferred_transitions,avoidable_interior_bends,boundary_turns,smooth_components,meta_switches,surface_length_mm
+square,EULER_CIRCUIT,60,100,0,0,0,56,5,39,72,8,19,5,4,321.194
+arowhead,EULER_TRAIL,36,56,2,0,0,27,0,29,42,0,13,1,0,245.933
+honeycomb,OPEN_CHINESE_POSTMAN,45,58,30,14,0,0,44,14,45,9,17,,,241.753
+reentrant,OPEN_CHINESE_POSTMAN,72,96,48,23,0,0,70,26,54,38,26,,,442.469

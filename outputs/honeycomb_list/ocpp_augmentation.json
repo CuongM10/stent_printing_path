@@ -1,0 +1,170 @@
+[
+  {
+    "pair": [
+      21,
+      26
+    ],
+    "path": [
+      21,
+      26
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 4.999889998789972
+  },
+  {
+    "pair": [
+      7,
+      11
+    ],
+    "path": [
+      7,
+      11
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 5.0
+  },
+  {
+    "pair": [
+      15,
+      20
+    ],
+    "path": [
+      15,
+      20
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 5.0
+  },
+  {
+    "pair": [
+      33,
+      38
+    ],
+    "path": [
+      33,
+      38
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 5.0
+  },
+  {
+    "pair": [
+      28,
+      32
+    ],
+    "path": [
+      28,
+      32
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 4.999889998789974
+  },
+  {
+    "pair": [
+      25,
+      29
+    ],
+    "path": [
+      25,
+      29
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 5.0
+  },
+  {
+    "pair": [
+      23,
+      27
+    ],
+    "path": [
+      23,
+      27
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 5.0
+  },
+  {
+    "pair": [
+      19,
+      24
+    ],
+    "path": [
+      19,
+      24
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 4.999889998789974
+  },
+  {
+    "pair": [
+      12,
+      16
+    ],
+    "path": [
+      12,
+      16
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 4.999889998789972
+  },
+  {
+    "pair": [
+      6,
+      10
+    ],
+    "path": [
+      6,
+      10
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 5.0
+  },
+  {
+    "pair": [
+      9,
+      14
+    ],
+    "path": [
+      9,
+      14
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 4.999889998789974
+  },
+  {
+    "pair": [
+      4,
+      8
+    ],
+    "path": [
+      4,
+      8
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 4.999889998789975
+  },
+  {
+    "pair": [
+      0,
+      5
+    ],
+    "path": [
+      0,
+      5
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 4.999889998789974
+  },
+  {
+    "pair": [
+      30,
+      34
+    ],
+    "path": [
+      30,
+      34
+    ],
+    "duplicated_edges": 1,
+    "duplicated_length": 4.999889998789972
+  }
+]

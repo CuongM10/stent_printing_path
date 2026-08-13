@@ -1,0 +1,289 @@
+{
+  "pattern": "square",
+  "source_file": "square_list.txt",
+  "input_index_base": 0,
+  "algorithm": "EULER_CIRCUIT",
+  "nodes": 60,
+  "edges": 100,
+  "odd_nodes_count": 0,
+  "odd_nodes": [],
+  "start_node": 49,
+  "end_node": 49,
+  "augmented_multigraph_edges": 100,
+  "duplicate_edge_traversals": 0,
+  "duplicate_length_2d": 0.0,
+  "retract_count": 0,
+  "continuous_route": true,
+  "all_original_edges_covered": true,
+  "support_metrics": {
+    "support_strong": 56,
+    "support_contact": 5,
+    "unsupported": 39,
+    "overprint_steps": 0,
+    "straight_transitions": 72,
+    "interior_bends": 8,
+    "avoidable_interior_bends": 8,
+    "boundary_turns": 19,
+    "sharp_turns": 0,
+    "interior_turn_deg": 719.9935177520318,
+    "total_turn_deg": 2430.035655774239,
+    "max_turn_deg": 90.00000000000001,
+    "route_2d_length": 499.9994476386942
+  },
+  "diameter_mm": 8.0,
+  "stent_length_mm": 20.0,
+  "line_width_mm": 0.4,
+  "layer_height_mm": 0.3,
+  "filament_diameter_mm": 1.75,
+  "feed_mm_min": 600.0,
+  "total_extrusion_E_mm": 16.024424601578236,
+  "total_surface_print_length_mm": 321.19381714970916,
+  "straight_tol_deg": 18.0,
+  "boundary_rule": "interior smooth transitions preserved; outer-boundary turns relaxed",
+  "euler_meta_graph": {
+    "initial_smooth_components": 5,
+    "initial_smooth_strokes_edge_uids": [
+      [
+        0,
+        1,
+        10,
+        12,
+        21,
+        23,
+        32,
+        34,
+        43,
+        45,
+        54,
+        56,
+        65,
+        67,
+        76,
+        78,
+        87,
+        89,
+        98,
+        99
+      ],
+      [
+        2,
+        3,
+        11,
+        14,
+        20,
+        25,
+        30,
+        36,
+        41,
+        47,
+        52,
+        58,
+        63,
+        69,
+        74,
+        79,
+        85,
+        88,
+        96,
+        97
+      ],
+      [
+        4,
+        5,
+        13,
+        16,
+        22,
+        27,
+        31,
+        38,
+        40,
+        49,
+        50,
+        59,
+        61,
+        68,
+        72,
+        77,
+        83,
+        86,
+        94,
+        95
+      ],
+      [
+        6,
+        7,
+        15,
+        18,
+        24,
+        29,
+        33,
+        39,
+        42,
+        48,
+        51,
+        57,
+        60,
+        66,
+        70,
+        75,
+        81,
+        84,
+        92,
+        93
+      ],
+      [
+        8,
+        9,
+        17,
+        19,
+        26,
+        28,
+        35,
+        37,
+        44,
+        46,
+        53,
+        55,
+        62,
+        64,
+        71,
+        73,
+        80,
+        82,
+        90,
+        91
+      ]
+    ],
+    "meta_switch_count": 4,
+    "meta_switches": [
+      {
+        "vertex": 18,
+        "meta_components": [
+          0,
+          3
+        ],
+        "incremental_weighted_turn_cost": 179.9967588753188,
+        "old_pairs": [
+          [
+            23,
+            34
+          ],
+          [
+            24,
+            33
+          ]
+        ],
+        "new_pairs": [
+          [
+            23,
+            24
+          ],
+          [
+            34,
+            33
+          ]
+        ],
+        "old_raw_turn_sum": 0.0016205626891498722,
+        "new_raw_turn_sum": 179.99837943800793,
+        "vertex_label": 18
+      },
+      {
+        "vertex": 48,
+        "meta_components": [
+          0,
+          1
+        ],
+        "incremental_weighted_turn_cost": 179.9967588757686,
+        "old_pairs": [
+          [
+            78,
+            89
+          ],
+          [
+            79,
+            88
+          ]
+        ],
+        "new_pairs": [
+          [
+            78,
+            88
+          ],
+          [
+            89,
+            79
+          ]
+        ],
+        "old_raw_turn_sum": 0.001620562239350161,
+        "new_raw_turn_sum": 179.99837943800793,
+        "vertex_label": 48
+      },
+      {
+        "vertex": 30,
+        "meta_components": [
+          0,
+          4
+        ],
+        "incremental_weighted_turn_cost": 179.9967588757686,
+        "old_pairs": [
+          [
+            45,
+            56
+          ],
+          [
+            46,
+            55
+          ]
+        ],
+        "new_pairs": [
+          [
+            45,
+            55
+          ],
+          [
+            56,
+            46
+          ]
+        ],
+        "old_raw_turn_sum": 0.001620562239350161,
+        "new_raw_turn_sum": 179.99837943800793,
+        "vertex_label": 30
+      },
+      {
+        "vertex": 20,
+        "meta_components": [
+          2,
+          4
+        ],
+        "incremental_weighted_turn_cost": 179.9967588753188,
+        "old_pairs": [
+          [
+            27,
+            38
+          ],
+          [
+            28,
+            37
+          ]
+        ],
+        "new_pairs": [
+          [
+            27,
+            28
+          ],
+          [
+            38,
+            37
+          ]
+        ],
+        "old_raw_turn_sum": 0.0016205626891498722,
+        "new_raw_turn_sum": 179.99837943800793,
+        "vertex_label": 20
+      }
+    ],
+    "preferred_local_transition_cost": 144.05756577426092,
+    "meta_added_turn_cost": 719.9870355021748
+  },
+  "candidate_routes_evaluated_approx": 1000,
+  "runtime_s": 0.28779077529907227
+}

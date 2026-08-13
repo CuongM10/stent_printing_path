@@ -1,0 +1,244 @@
+{
+  "initial_smooth_components": 5,
+  "initial_smooth_strokes_edge_uids": [
+    [
+      0,
+      1,
+      10,
+      12,
+      21,
+      23,
+      32,
+      34,
+      43,
+      45,
+      54,
+      56,
+      65,
+      67,
+      76,
+      78,
+      87,
+      89,
+      98,
+      99
+    ],
+    [
+      2,
+      3,
+      11,
+      14,
+      20,
+      25,
+      30,
+      36,
+      41,
+      47,
+      52,
+      58,
+      63,
+      69,
+      74,
+      79,
+      85,
+      88,
+      96,
+      97
+    ],
+    [
+      4,
+      5,
+      13,
+      16,
+      22,
+      27,
+      31,
+      38,
+      40,
+      49,
+      50,
+      59,
+      61,
+      68,
+      72,
+      77,
+      83,
+      86,
+      94,
+      95
+    ],
+    [
+      6,
+      7,
+      15,
+      18,
+      24,
+      29,
+      33,
+      39,
+      42,
+      48,
+      51,
+      57,
+      60,
+      66,
+      70,
+      75,
+      81,
+      84,
+      92,
+      93
+    ],
+    [
+      8,
+      9,
+      17,
+      19,
+      26,
+      28,
+      35,
+      37,
+      44,
+      46,
+      53,
+      55,
+      62,
+      64,
+      71,
+      73,
+      80,
+      82,
+      90,
+      91
+    ]
+  ],
+  "meta_switch_count": 4,
+  "meta_switches": [
+    {
+      "vertex": 18,
+      "meta_components": [
+        0,
+        3
+      ],
+      "incremental_weighted_turn_cost": 179.9967588753188,
+      "old_pairs": [
+        [
+          23,
+          34
+        ],
+        [
+          24,
+          33
+        ]
+      ],
+      "new_pairs": [
+        [
+          23,
+          24
+        ],
+        [
+          34,
+          33
+        ]
+      ],
+      "old_raw_turn_sum": 0.0016205626891498722,
+      "new_raw_turn_sum": 179.99837943800793,
+      "vertex_label": 18
+    },
+    {
+      "vertex": 48,
+      "meta_components": [
+        0,
+        1
+      ],
+      "incremental_weighted_turn_cost": 179.9967588757686,
+      "old_pairs": [
+        [
+          78,
+          89
+        ],
+        [
+          79,
+          88
+        ]
+      ],
+      "new_pairs": [
+        [
+          78,
+          88
+        ],
+        [
+          89,
+          79
+        ]
+      ],
+      "old_raw_turn_sum": 0.001620562239350161,
+      "new_raw_turn_sum": 179.99837943800793,
+      "vertex_label": 48
+    },
+    {
+      "vertex": 30,
+      "meta_components": [
+        0,
+        4
+      ],
+      "incremental_weighted_turn_cost": 179.9967588757686,
+      "old_pairs": [
+        [
+          45,
+          56
+        ],
+        [
+          46,
+          55
+        ]
+      ],
+      "new_pairs": [
+        [
+          45,
+          55
+        ],
+        [
+          56,
+          46
+        ]
+      ],
+      "old_raw_turn_sum": 0.001620562239350161,
+      "new_raw_turn_sum": 179.99837943800793,
+      "vertex_label": 30
+    },
+    {
+      "vertex": 20,
+      "meta_components": [
+        2,
+        4
+      ],
+      "incremental_weighted_turn_cost": 179.9967588753188,
+      "old_pairs": [
+        [
+          27,
+          38
+        ],
+        [
+          28,
+          37
+        ]
+      ],
+      "new_pairs": [
+        [
+          27,
+          28
+        ],
+        [
+          38,
+          37
+        ]
+      ],
+      "old_raw_turn_sum": 0.0016205626891498722,
+      "new_raw_turn_sum": 179.99837943800793,
+      "vertex_label": 20
+    }
+  ],
+  "preferred_local_transition_cost": 144.05756577426092,
+  "meta_added_turn_cost": 719.9870355021748
+}
